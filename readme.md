@@ -13,12 +13,14 @@ Quote Crawl enables you to extract quotes from BrainyQuote and save them to CSVs
 
 **Basic Example**
 
-    var crawler = require('./crawler.js')
+```javascript
+var crawler = require('./crawler.js')
 
-    var bq = crawler.bq
+var bq = crawler.bq
 
-    category_depth = 1
+category_depth = 1
 
-    crawler.scrapeCategory('business', category_depth, function(quoteList, cur_category){
-        console.log("You just scraped the " + cur_category + " category. From that page, you extracted " + quoteList.length + " quotes.")
-    })
+crawler.scrapeCategory('business', category_depth, function(quoteList, cur_category){
+    console.log("You just scraped the " + cur_category + " category. From that page, you extracted " + quoteList.length + " quotes.")
+})
+```
