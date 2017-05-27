@@ -1,0 +1,16 @@
+{
+  "name": "quote-crawl",
+  "version": "1.0.0",
+  "description": "Brainy Quote Scraper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Doug Beney",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "jsonfile": "^3.0.0",
+    "request": "^2.81.0"
+  }
+}
